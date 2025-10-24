@@ -1,0 +1,15 @@
+digest: c6dcf2e6
+name: dataset
+profile: '{"num_rows": 109, "num_elements": 1090}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Follicle No. (R)", "required":
+  true}, {"type": "double", "name": "Follicle No. (L)", "required": true}, {"type":
+  "double", "name": "Skin darkening (Y/N)", "required": true}, {"type": "double",
+  "name": "hair growth(Y/N)", "required": true}, {"type": "double", "name": "Weight
+  gain(Y/N)", "required": true}, {"type": "double", "name": "Cycle(R/I)", "required":
+  true}, {"type": "double", "name": "Fast food (Y/N)", "required": true}, {"type":
+  "double", "name": "Cycle length(days)", "required": true}, {"type": "double", "name":
+  "Age (yrs)", "required": true}, {"type": "double", "name": "Marraige Status (Yrs)",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "codespace", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "1d5e88f0854598c1d4d49fd9df46c7229941d2b6"}}'
+source_type: code

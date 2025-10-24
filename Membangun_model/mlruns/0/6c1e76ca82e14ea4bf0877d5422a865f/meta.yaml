@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/SMSL-Abisatya-/Membangun_model/mlruns/0/6c1e76ca82e14ea4bf0877d5422a865f/artifacts
+end_time: 1761272813898
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c1e76ca82e14ea4bf0877d5422a865f
+run_name: RF_Run_6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761272811071
+status: 3
+tags: []
+user_id: codespace

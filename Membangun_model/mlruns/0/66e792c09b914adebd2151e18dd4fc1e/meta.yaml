@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/SMSL-Abisatya-/Membangun_model/mlruns/0/66e792c09b914adebd2151e18dd4fc1e/artifacts
+deleted_time: 1761272157307
+end_time: 1761207293349
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 66e792c09b914adebd2151e18dd4fc1e
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761207290330
+status: 3
+tags: []
+user_id: codespace

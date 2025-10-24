@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/SMSL-Abisatya-/Membangun_model/mlruns/0/c1eec4acd3154d4ba987ebd31c8d4b42/artifacts
+end_time: 1761272830391
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1eec4acd3154d4ba987ebd31c8d4b42
+run_name: All Model Hyperparameter Tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761272796104
+status: 3
+tags: []
+user_id: codespace

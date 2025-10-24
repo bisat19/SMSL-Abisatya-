@@ -1,0 +1,22 @@
+artifact_path: file:///workspaces/SMSL-Abisatya-/Membangun_model/mlruns/0/models/m-2b0d494e94a74adcbec261723d7c06d6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.5.1
+model_id: m-2b0d494e94a74adcbec261723d7c06d6
+model_size_bytes: 878947
+model_uuid: m-2b0d494e94a74adcbec261723d7c06d6
+prompts: null
+run_id: ec96377d00d240a88ded6164af460eb3
+utc_time_created: '2025-10-24 02:26:43.712234'

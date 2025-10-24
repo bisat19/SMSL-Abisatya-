@@ -1,0 +1,10 @@
+artifact_location: file:///workspaces/SMSL-Abisatya-/Membangun_model/mlruns/0/models/m-1b01da1fbf494e2586205e85fb28a421/artifacts
+creation_timestamp: 1761272808864
+experiment_id: '0'
+last_updated_timestamp: 1761272811066
+model_id: m-1b01da1fbf494e2586205e85fb28a421
+model_type: null
+name: model
+source_run_id: 9d6562ec09a449858b488a9034ddd265
+status: 2
+status_message: null

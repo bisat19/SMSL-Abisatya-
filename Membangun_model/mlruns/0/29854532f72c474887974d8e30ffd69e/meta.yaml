@@ -1,0 +1,14 @@
+artifact_uri: file:///workspaces/SMSL-Abisatya-/Membangun_model/mlruns/0/29854532f72c474887974d8e30ffd69e/artifacts
+end_time: 1761272828000
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29854532f72c474887974d8e30ffd69e
+run_name: SVM_Run_2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761272825731
+status: 3
+tags: []
+user_id: codespace
