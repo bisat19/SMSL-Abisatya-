@@ -1,21 +1,13 @@
-# Hapus baris 'version: 3.7' untuk menghilangkan Peringatan (WARN)
 services:
-
-  # 1. Model Server Anda (dari Kriteria 3)
   model-server:
-    image: abisat19/pcos-model:5df419c79f444453b02b2a2194924081
+    image: abisat19/pcos-model:c663b12249434ca7b85d7ab17607eed5
     ports:
       - "8080:8080"
     networks:
       - ml-monitoring
-    # --- PERBAIKAN DI SINI ---
-    # Ini adalah perintah yang benar untuk image yang dibuat dengan '--enable-mlserver'
-    # Kita menyuruh 'mlserver' untuk memulai model di '/opt/ml/model'
     command: >
       mlserver start /opt/ml/model --host 0.0.0.0 --port 8080
     # -------------------------
-
-  # 2. Exporter Kustom Kita
   exporter:
     build: ./exporter
     ports:
@@ -24,8 +16,6 @@ services:
       - model-server
     networks:
       - ml-monitoring
-
-  # 3. Prometheus
   prometheus:
     image: prom/prometheus:latest
     volumes:
@@ -36,8 +26,6 @@ services:
       - exporter
     networks:
       - ml-monitoring
-
-  # 4. Grafana
   grafana:
     image: grafana/grafana-oss:latest
     ports:
