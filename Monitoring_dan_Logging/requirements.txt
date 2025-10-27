@@ -1,0 +1,7 @@
+mlflow
+dagshub
+flask
+prometheus_client
+requests
+# Pastikan versinya sama dengan yang di CI
+scikit-learn==1.3.2

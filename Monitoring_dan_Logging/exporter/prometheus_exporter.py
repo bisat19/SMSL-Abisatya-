@@ -66,14 +66,9 @@ def predict():
     start_time = time.time()
     try:
         data = request.get_json()
-        
-        # Format payload untuk MLflow server
-        # data['inputs'] harus berupa list berisi 10 fitur
         payload = {"inputs": data['inputs']}
-        
-        # Panggil model-server (yang didefinisikan di docker-compose)
         response = requests.post(
-            "http://model-server:8080/invocations", 
+            "http://localhost:1234/invocations", 
             json=payload,
             headers={"Content-Type": "application/json"}
         )
