@@ -68,7 +68,7 @@ def predict():
         data = request.get_json()
         payload = {"inputs": data['inputs']}
         response = requests.post(
-            "http://localhost:1234/invocations", 
+            "http://localhost:5000/predict", 
             json=payload,
             headers={"Content-Type": "application/json"}
         )
