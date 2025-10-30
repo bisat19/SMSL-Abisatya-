@@ -3,16 +3,23 @@ services:
   prometheus:
     image: prom/prometheus:latest
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml 
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
-  # 2. Grafana
+  # 2. Grafana (dengan Konfigurasi SMTP Gmail)
   grafana:
     image: grafana/grafana-oss:latest
     ports:
       - "3000:3000"
     depends_on:
       - prometheus
+    environment:
+      - GF_SMTP_ENABLED=true
+      - GF_SMTP_HOST=smtp.gmail.com:587
+      - GF_SMTP_USER=riabitya@gmail.com
+      - GF_SMTP_PASSWORD=antr aykb mgsy zqmo
+      - GF_SMTP_FROM_ADDRESS=riabitya@gmail.com
+      - GF_SMTP_FROM_NAME=Grafana Alerting
